@@ -27,7 +27,7 @@ jobs:
     - name: Terraform Apply
       run: terraform apply -input=false tfplan
       env:
-        ARM_CLIENT_ID: 3d8063b3-3657-4a03-8fe5-ab9fc694c9f3
+        ARM_CLIENT_ID: 3d8063b3-3657-4a03-8fe5-ab9fc694c9f3a
         ARM_CLIENT_SECRET: IF58Q~TEHCrN55sCYzBMrFIM1JluGC08JrJgVbd0
         ARM_SUBSCRIPTION_ID: 6f9a1c1c-f8a5-4e98-bd17-18dd4194267a
         ARM_TENANT_ID: 1dace772-cc35-4790-866d-b7a4cf63ab3a
